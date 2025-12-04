@@ -49,14 +49,8 @@ RC PHASE SHIFT OSCILLATOR
 
 ## DESIGN
 
-## RC PHASE SHIFT OSCILLATOR
-fo = 1 /  6 (2RC) Rf  29 R1
-C = 0.01F, fo = 200 Hz.
-R = 1 /  6 (2  f C ) = 3.3 k
-Therefore, Choose R = 3.3k
-To prevent loading,
-R1   10 R
-R1 =10 R = 33 k. Rf = 29R1=1MΩ
+![WhatsApp Image 2025-12-04 at 12 39 30_b27d717d](https://github.com/user-attachments/assets/cd91794f-1225-441f-bb81-4e3f2dc247cf)
+
 
 ---
 ## PROCEDURE
@@ -110,18 +104,8 @@ WIEN BRIDGE OSCILLATOR
 ## DESIGN
 
 ## WIEN BRIDGE OSCILLATOR
-Select frequency f0 = 1KHz
-fo = 1/2πRC
-A = 1+(Rf / R1) = 3.
-To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
-R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
-Assume R1 = 10R & find Rf from Rf = 2R1
-Therefore R1 = 1.5K *10=15KΩ
-Rf = 15K *2=30KΩ
----
+![WhatsApp Image 2025-12-04 at 12 39 42_40bd2922](https://github.com/user-attachments/assets/170ad2b8-1ba0-4ab5-bd5c-46a561fe410c)
+
 
 ## PROCEDURE
 
